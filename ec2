@@ -4,7 +4,7 @@ def create_instance():
         ImageId="ami-0b0154d3d8011b0cd",
         MinCount=1,
         MaxCount=1,
-        InstanceType="t2.micro",
+        InstanceType="t1.micro",
         KeyName="ec2-key-pair"
     )
 
